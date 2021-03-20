@@ -1,0 +1,335 @@
+
+  "ids": {
+    "modelId": "HCOHCD",
+    "manufacturerName": ""
+  },
+  "endpoints": {
+    "endpointDescriptors": [
+      {
+        "endpointId": 1,
+        "applicationProfileId": 260,
+        "applicationDeviceId": 2,
+        "applicationDeviceVersion": 0,
+        "_reserved1": 0,
+        "inputClusters": [
+          0,
+          3,
+          6,
+          1026
+        ],
+        "outputClusters": [
+          3
+        ]
+      },
+      {
+        "endpointId": 2,
+        "applicationProfileId": 260,
+        "applicationDeviceId": 2,
+        "applicationDeviceVersion": 0,
+        "_reserved1": 0,
+        "inputClusters": [
+          0,
+          3,
+          6,
+          1026
+        ],
+        "outputClusters": [
+          3
+        ]
+      }
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": {
+          "basic": {
+            "attributes": [
+              {
+                "id": 0,
+                "name": "zclVersion",
+                "value": 1,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 32,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": 255,
+                  "status": "SUCCESS"
+                }
+              },
+              {
+                "id": 5,
+                "name": "modelId",
+                "value": "HCOHCD",
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 66,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "status": "SUCCESS"
+                }
+              },
+              {
+                "id": 7,
+                "name": "powerSource",
+                "value": "unknown",
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 48,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "status": "SUCCESS"
+                }
+              }
+            ],
+            "commandsGenerated": "UNSUP_GENERAL_COMMAND",
+            "commandsReceived": "UNSUP_GENERAL_COMMAND"
+          },
+          "identify": {
+            "attributes": [
+              {
+                "id": 0,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 33,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": 65535,
+                  "status": "SUCCESS"
+                }
+              }
+            ],
+            "commandsGenerated": "UNSUP_GENERAL_COMMAND",
+            "commandsReceived": "UNSUP_GENERAL_COMMAND"
+          },
+          "onOff": {
+            "attributes": [
+              {
+                "id": 0,
+                "name": "onOff",
+                "value": true,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 16,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "status": "SUCCESS"
+                }
+              }
+            ],
+            "commandsGenerated": "UNSUP_GENERAL_COMMAND",
+            "commandsReceived": "UNSUP_GENERAL_COMMAND"
+          },
+          "temperatureMeasurement": {
+            "attributes": [
+              {
+                "id": 0,
+                "name": "measuredValue",
+                "value": 2813,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 41,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": -32768,
+                  "status": "SUCCESS"
+                }
+              },
+              {
+                "id": 1,
+                "name": "minMeasuredValue",
+                "value": 0,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 41,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": -32768,
+                  "status": "SUCCESS"
+                }
+              },
+              {
+                "id": 2,
+                "name": "maxMeasuredValue",
+                "value": 0,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 41,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": -32768,
+                  "status": "SUCCESS"
+                }
+              }
+            ],
+            "commandsGenerated": "UNSUP_GENERAL_COMMAND",
+            "commandsReceived": "UNSUP_GENERAL_COMMAND"
+          }
+        },
+        "bindings": {
+          "identify": {
+            "attributes": [
+              {
+                "id": 0,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 33,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": 65535,
+                  "status": "SUCCESS"
+                }
+              }
+            ],
+            "commandsGenerated": "UNSUP_GENERAL_COMMAND",
+            "commandsReceived": "UNSUP_GENERAL_COMMAND"
+          }
+        }
+      },
+      "2": {
+        "clusters": {
+          "basic": {
+            "attributes": [
+              {
+                "id": 0,
+                "name": "zclVersion",
+                "value": 1,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 32,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": 255,
+                  "status": "SUCCESS"
+                }
+              },
+              {
+                "id": 5,
+                "name": "modelId",
+                "value": "HCOHCD",
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 66,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "status": "SUCCESS"
+                }
+              },
+              {
+                "id": 7,
+                "name": "powerSource",
+                "value": "unknown",
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 48,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "status": "SUCCESS"
+                }
+              }
+            ],
+            "commandsGenerated": "UNSUP_GENERAL_COMMAND",
+            "commandsReceived": "UNSUP_GENERAL_COMMAND"
+          },
+          "identify": {
+            "attributes": [
+              {
+                "id": 0,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 33,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": 65535,
+                  "status": "SUCCESS"
+                }
+              }
+            ],
+            "commandsGenerated": "UNSUP_GENERAL_COMMAND",
+            "commandsReceived": "UNSUP_GENERAL_COMMAND"
+          },
+          "onOff": {
+            "attributes": [
+              {
+                "id": 0,
+                "name": "onOff",
+                "value": false,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 16,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "status": "SUCCESS"
+                }
+              }
+            ],
+            "commandsGenerated": "UNSUP_GENERAL_COMMAND",
+            "commandsReceived": "UNSUP_GENERAL_COMMAND"
+          },
+          "temperatureMeasurement": {
+            "attributes": [
+              {
+                "id": 0,
+                "name": "measuredValue",
+                "value": 6183,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 41,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": -32768,
+                  "status": "SUCCESS"
+                }
+              },
+              {
+                "id": 1,
+                "name": "minMeasuredValue",
+                "value": 0,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 41,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": -32768,
+                  "status": "SUCCESS"
+                }
+              },
+              {
+                "id": 2,
+                "name": "maxMeasuredValue",
+                "value": 0,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 41,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": -32768,
+                  "status": "SUCCESS"
+                }
+              }
+            ],
+            "commandsGenerated": "UNSUP_GENERAL_COMMAND",
+            "commandsReceived": "UNSUP_GENERAL_COMMAND"
+          }
+        },
+        "bindings": {
+          "identify": {
+            "attributes": [
+              {
+                "id": 0,
+                "reportingConfiguration": {
+                  "direction": "reported",
+                  "attributeDataType": 33,
+                  "minInterval": 65535,
+                  "maxInterval": 65535,
+                  "minChange": 65535,
+                  "status": "SUCCESS"
+                }
+              }
+            ],
+            "commandsGenerated": "UNSUP_GENERAL_COMMAND",
+            "commandsReceived": "UNSUP_GENERAL_COMMAND"
+          }
+        }
+      }
+    }
+  }
