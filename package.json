@@ -1,0 +1,13 @@
+{
+  "name": "com.company.socket",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "homey": "^2.11.0"
+  },
+  "dependencies": {
+    "homey-meshdriver": "^2.0.2",
+    "homey-zigbeedriver": "^1.6.2",
+    "zigbee-clusters": "^1.4.0"
+  }
+}

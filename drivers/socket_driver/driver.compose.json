@@ -1,0 +1,50 @@
+{
+  "id": "socket_driver",
+  "name": {
+    "en": "socket_driver"
+  },
+  "class": "socket",
+  "capabilities": [
+    "onoff"
+  ],
+  "images": {
+    "large": "/drivers/socket_driver/assets/images/large.png",
+    "small": "/drivers/socket_driver/assets/images/small.png"
+  },
+  
+  "zigbee": {
+    "modelId": "HCOHCD",
+    "manufacturerName": "",
+    "productId": "HCOHCD",
+    "learnmode": {
+      "instruction": {
+        "en": "Pair the device."
+      }
+    }
+  }, 
+  "endpoints": {
+    "1": {
+      "clusters": [
+        0,
+        3,
+        6,
+        1026
+      ],
+      "2": {
+        "clusters": [
+          0,
+          3,
+          6,
+          1026
+        ]
+      }
+    }
+  },
+  "learnmode": {
+    "image": "/drivers/example_bulb/assets/icon.svg",
+    "instruction": {
+      "en": "Turn the device on and off 6 times",
+      "nl": "Zet het apparaat 6 keer aan en uit"
+    }
+  }
+}

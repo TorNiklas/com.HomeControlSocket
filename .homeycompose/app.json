@@ -1,0 +1,24 @@
+{
+  "id": "com.company.socket",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "socket"
+  },
+  "description": {
+    "en": "for two sockets"
+  },
+  "category": [
+    "energy"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Tor Niklas Strøm",
+    "email": "torniklas@outlook.com"
+  }
+}
