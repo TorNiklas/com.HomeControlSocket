@@ -24,20 +24,12 @@
   }, 
   "endpoints": {
     "1": {
-      "clusters": [
-        0,
-        3,
-        6,
-        1026
-      ],
-      "2": {
-        "clusters": [
-          0,
-          3,
-          6,
-          1026
-        ]
-      }
+      "clusters": [ 0, 3, 6, 1026 ],
+      "bindings": [ 3 ]
+    },
+    "2": {
+      "clusters": [ 0, 3, 6, 1026 ],
+      "bindings": [ 3 ]
     }
   },
   "learnmode": {
