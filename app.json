@@ -30,7 +30,8 @@
       },
       "class": "socket",
       "capabilities": [
-        "onoff"
+        "onoff",
+        "measure_temperature"
       ],
       "images": {
         "large": "/drivers/socket_driver/assets/images/large.png",
@@ -69,7 +70,8 @@
           "secondOutlet": {
             "class": "socket",
             "capabilities": [
-              "onoff"
+              "onoff",
+              "measure_temperature"
             ],
             "name": {
               "en": "Outlet #2"

@@ -8,6 +8,7 @@ For two outlets
 #### Triggers
 - Outlet is turned on
 - Outlet is turned off
+- Temperature changed
 
 #### Conditions
 - Outlet is turned on
@@ -19,6 +20,9 @@ For two outlets
 - Toggle outlet
 
 ### Release Notes
+
+#### 1.0.0
+- Temperature capability enabled
 
 #### 1.0.0
 - Each outlet now has its own device card, for easier on/off-turning

@@ -7,8 +7,9 @@ const { CLUSTER } = require('zigbee-clusters');
 class RootDevice extends ZigBeeDevice {
 
 	onNodeInit() {
-		// Register onoff capability
+		// Register capabilities
 		this.registerCapability('onoff', CLUSTER.ON_OFF, { endpoint: 1 });
+		this.registerCapability('measure_temperature', CLUSTER.TEMPERATURE_MEASUREMENT, { endpoint: 1 });
 	}
 }
 module.exports = RootDevice;

@@ -4,7 +4,7 @@
 		"en": "Outlet #1"
 	},
 	"class": "socket",
-	"capabilities": ["onoff"],
+	"capabilities": ["onoff", "measure_temperature"],
 	"images": {
 		"large": "/drivers/socket_driver/assets/images/large.png",
 		"small": "/drivers/socket_driver/assets/images/small.png"
@@ -26,7 +26,7 @@
 		"devices": {
 			"secondOutlet": {
 				"class": "socket",
-				"capabilities": ["onoff"],
+				"capabilities": ["onoff", "measure_temperature"],
 				"name": {
 					"en": "Outlet #2"
 				},
