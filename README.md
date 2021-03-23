@@ -1,15 +1,22 @@
-# socket
-
-for two sockets
+# Socket
+For two outlets
 
 ## Flow cards 
 
-### Device: Nordpool
+### Device: Develco Home Control Outlet 2
 
 #### Triggers
+- Outlet is turned on
+- Outlet is turned off
 
 #### Conditions
+- Outlet is turned on
+- Outlet is turned off
 
+#### Actions
+- Turn outlet on
+- Turn outlet off
+- Toggle outlet
 
 ### Release Notes
 
