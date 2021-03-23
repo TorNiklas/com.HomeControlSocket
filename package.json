@@ -1,5 +1,5 @@
 {
-  "name": "com.company.socket",
+  "name": "com.smartsocket",
   "version": "1.0.0",
   "main": "app.js",
   "devDependencies": {
