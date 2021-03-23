@@ -1,13 +1,10 @@
 {
 	"id": "socket_driver",
 	"name": {
-		"en": "socket_driver"
+		"en": "Outlet #1"
 	},
 	"class": "socket",
-	"capabilities": [
-		"onoff.one", 
-		"onoff.two"
-	],
+	"capabilities": ["onoff"],
 	"images": {
 		"large": "/drivers/socket_driver/assets/images/large.png",
 		"small": "/drivers/socket_driver/assets/images/small.png"
@@ -26,17 +23,20 @@
 				"bindings": [ 3 ]
 			}
 		},
+		"devices": {
+			"secondOutlet": {
+				"class": "socket",
+				"capabilities": ["onoff"],
+				"name": {
+					"en": "Outlet #2"
+				},
+				"settings": []
+			}
+		},
 		"learnmode": {
 			"instruction": {
 				"en": "Pair the device."
 			}
-		}
-	},
-	"learnmode": {
-		"image": "/drivers/example_bulb/assets/icon.svg",
-		"instruction": {
-			"en": "Turn the device on and off 6 times",
-			"nl": "Zet het apparaat 6 keer aan en uit"
 		}
 	}
 }
