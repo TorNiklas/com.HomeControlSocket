@@ -21,7 +21,7 @@ For two outlets
 
 ### Release Notes
 
-#### 1.0.0
+#### 1.1.0
 - Temperature capability enabled
 
 #### 1.0.0
