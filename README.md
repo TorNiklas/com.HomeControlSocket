@@ -1,5 +1,5 @@
 # Develco Home Control Outlet
-This is for the one with the double outlet, also known as HCO, HCO 2, HCOHCD.
+This is for the double outlet, also known as HCO, HCO 2, HCOHCD.
 
 ## Flow cards 
 
