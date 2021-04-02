@@ -1,14 +1,10 @@
 {
 	"id": "socket_driver",
 	"name": {
-		"en": "Outlet #1"
+		"en": "Home Control Outlet"
 	},
 	"class": "socket",
 	"capabilities": ["onoff", "measure_temperature"],
-	"images": {
-		"large": "/drivers/socket_driver/assets/images/large.png",
-		"small": "/drivers/socket_driver/assets/images/small.png"
-	},
 	
 	"zigbee": {
 		"manufacturerName": "",
@@ -35,7 +31,7 @@
 		},
 		"learnmode": {
 			"instruction": {
-				"en": "Pair the device."
+				"en": "Press the pairing button for three seconds, then release it."
 			}
 		}
 	}

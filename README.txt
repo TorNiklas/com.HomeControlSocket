@@ -1,1 +1,1 @@
-for two sockets
+Adds support for HCO

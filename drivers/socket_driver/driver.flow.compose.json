@@ -1,0 +1,19 @@
+{
+	"conditions": [
+		{
+			"id": "temp_above",
+			"title": {
+				"en": "Temperature is above value."
+			},
+			"titleFormatted": {
+				"en": "Temperature is !{{above|not above}} [[value]]°C."
+			},
+			"args": [
+				{
+					"name": "value",
+					"type": "number"
+				}
+			]
+		}
+	]
+}

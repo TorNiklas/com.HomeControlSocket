@@ -1,9 +1,9 @@
 # Socket
-For two outlets
+Adds support for HCO
 
 ## Flow cards 
 
-### Device: Develco Home Control Outlet 2
+### Device: Develco Home Control Outlet
 
 #### Triggers
 - Outlet is turned on
@@ -13,6 +13,7 @@ For two outlets
 #### Conditions
 - Outlet is turned on
 - Outlet is turned off
+- Temperature is above value
 
 #### Actions
 - Turn outlet on
@@ -20,6 +21,10 @@ For two outlets
 - Toggle outlet
 
 ### Release Notes
+
+#### 1.2.0
+- Temperature polling is now every three seconds (up from never)
+- Added condition: Temperature is above value
 
 #### 1.1.0
 - Temperature capability enabled

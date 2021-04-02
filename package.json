@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "app.js",
   "devDependencies": {
-    "homey": "^2.11.0"
+    "homey": "^2.14.2"
   },
   "dependencies": {
     "homey-meshdriver": "^2.0.2",
     "homey-zigbeedriver": "^1.6.2",
+    "y18n": "^3.2.2",
+    "yargs-parser": "^9.0.2",
     "zigbee-clusters": "^1.4.0"
   }
 }
