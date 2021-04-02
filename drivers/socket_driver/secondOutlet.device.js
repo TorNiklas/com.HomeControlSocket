@@ -10,7 +10,7 @@ class SecondOutletDevice extends ZigBeeDevice {
 		// Register capabilities
 		this.registerCapability('onoff', CLUSTER.ON_OFF, { endpoint: 2 });
 		this.registerCapability('measure_temperature', CLUSTER.TEMPERATURE_MEASUREMENT, { 
-			endpoint: 2,
+			endpoint: 1,
 			getOpts: {
 				getOnStart: true,
 				getOnOnline: true,

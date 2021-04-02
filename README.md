@@ -22,6 +22,9 @@ This is for the double outlet, also known as HCO, HCO 2, HCOHCD.
 
 ### Release Notes
 
+#### 1.2.2
+- Fixed temperature on outlet #2 not working correctly
+
 #### 1.2.1
 - Fixed the "Temperature is above value" card not working
 
