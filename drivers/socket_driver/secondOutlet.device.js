@@ -14,7 +14,7 @@ class SecondOutletDevice extends ZigBeeDevice {
 			getOpts: {
 				getOnStart: true,
 				getOnOnline: true,
-				pollInterval: 3000, // in ms
+				pollInterval: 10000, // in ms
 			}
 		});
 	}

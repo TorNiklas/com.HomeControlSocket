@@ -34,5 +34,9 @@
 				"en": "Press the pairing button for three seconds, then release it."
 			}
 		}
+	},
+	"images": {
+		"large": "/drivers/my_driver/assets/images/large.png",
+		"small": "/drivers/my_driver/assets/images/small.png"
 	}
 }

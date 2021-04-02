@@ -1,18 +1,150 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 267.1 508" style="enable-background:new 0 0 267.1 508;" xml:space="preserve">
-<g>
-	<path d="M231,286.6c8.2-90.9-16-183.6-69.9-251.6L133.5,0l-27.6,35C52.1,103.1,27.8,195.8,36,286.7c-23.2,24.8-36,56.9-36,91
-		c0,30,12.3,64.4,12.3,64.4S20,391.7,49.7,359c3.4,20.7,15,41.8,15,41.8h137.6c0,0,7.9-13.1,15-41.8c28.5,32.6,37.4,83.1,37.4,83.1
-		s12.4-26.7,12.4-64.4C267.1,343.6,254.2,311.5,231,286.6z M16.4,376.3c0.3-24.6,8.1-48,22.4-67.5c1.6,10.8,3.6,21.5,6,31.9
-		C33.3,351,23.7,363,16.4,376.3z M133.5,26.6c0,0,25.4,30.5,37.7,52.6H95.7C107.1,56.9,133.5,26.6,133.5,26.6z M191.3,384.3h-49.5
-		v-74.2h-16.5v74.2H75.8C38.4,290.5,43.8,181.6,87,95.7h93.2C223.4,181.6,228.7,290.5,191.3,384.3z M222.1,340.6
-		c2.5-10.4,4.5-21,6.1-31.8c14.3,19.5,22.1,42.9,22.4,67.5C243.3,363,233.7,351,222.1,340.6z"/>
-	<path d="M133.5,112.2c-18.2,0-33,14.8-33,33s14.8,33,33,33s33-14.8,33-33S151.7,112.2,133.5,112.2z M133.5,161.7
-		c-9.1,0-16.5-7.4-16.5-16.5s7.4-16.5,16.5-16.5s16.5,7.4,16.5,16.5S142.6,161.7,133.5,161.7z"/>
-	<rect x="125.3" y="417.3" width="16.5" height="66"/>
-	<rect x="183" y="458.5" width="16.5" height="49.5"/>
-	<rect x="67.5" y="458.5" width="16.5" height="49.5"/>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   width="555"
+   height="440"
+   style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+   viewBox="0 0 146.84376 116.41667"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"><metadata
+   id="metadata38"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   id="namedview36"
+   showgrid="false"
+   inkscape:zoom="0.66454519"
+   inkscape:cx="807.09665"
+   inkscape:cy="442.4498"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg34"
+   units="mm" />
+ <defs
+   id="defs4"><style
+     type="text/css"
+     id="style2">
+   <![CDATA[
+    .str0 {stroke:#1F1A17;stroke-width:2.8222}
+    .fil0 {fill:none}
+   ]]>
+  </style></defs>
+ <g
+   id="Layer_x0020_1"
+   transform="matrix(0.99922099,0,0,1.0000388,-31.334195,-70.213998)">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  <rect
+   class="fil0 str0"
+   x="32.770302"
+   y="71.621803"
+   width="144.136"
+   height="113.59"
+   rx="1.1207"
+   ry="1.1207"
+   id="rect7" />
+  <ellipse
+   class="fil0 str0"
+   cx="71.751404"
+   cy="127.854"
+   rx="28.714701"
+   ry="29.281601"
+   id="ellipse9" />
+  <ellipse
+   class="fil0 str0"
+   cx="137.987"
+   cy="128.418"
+   rx="28.714701"
+   ry="29.281601"
+   id="ellipse11" />
+  <ellipse
+   class="fil0 str0"
+   cx="71.751404"
+   cy="127.854"
+   rx="24.212601"
+   ry="24.690599"
+   id="ellipse13" />
+  <ellipse
+   class="fil0 str0"
+   cx="137.987"
+   cy="128.418"
+   rx="24.212601"
+   ry="24.690599"
+   id="ellipse15" />
+  <ellipse
+   class="fil0 str0"
+   cx="59.229198"
+   cy="127.666"
+   rx="4.3179998"
+   ry="5.0735998"
+   id="ellipse17" />
+  <ellipse
+   class="fil0 str0"
+   cx="125.464"
+   cy="128.23"
+   rx="4.3179998"
+   ry="5.0735998"
+   id="ellipse19" />
+  <ellipse
+   class="fil0 str0"
+   cx="85.353104"
+   cy="127.126"
+   rx="4.3179998"
+   ry="5.0735998"
+   id="ellipse21" />
+  <ellipse
+   class="fil0 str0"
+   cx="151.588"
+   cy="127.69"
+   rx="4.3179998"
+   ry="5.0735998"
+   id="ellipse23" />
+  <rect
+   class="fil0 str0"
+   x="68.851997"
+   y="104.044"
+   width="6.4770002"
+   height="7.1247001"
+   id="rect25" />
+  <rect
+   class="fil0 str0"
+   x="135.396"
+   y="105.02"
+   width="6.4770002"
+   height="7.1247001"
+   id="rect27" />
+  <rect
+   class="fil0 str0"
+   x="69.067802"
+   y="144.722"
+   width="6.4770002"
+   height="7.1247001"
+   id="rect29" />
+  <rect
+   class="fil0 str0"
+   x="135.612"
+   y="145.058"
+   width="6.4770002"
+   height="7.1247001"
+   id="rect31" />
+ </g>
 </svg>
