@@ -1,4 +1,4 @@
-# Socket
+# Develco Home Control Outlet
 Adds support for HCO
 
 ## Flow cards 
