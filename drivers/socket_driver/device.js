@@ -21,10 +21,7 @@ class RootDevice extends ZigBeeDevice {
 
 		let temperatureCondition = this.homey.flow.getConditionCard('temp_above');
 		temperatureCondition.registerRunListener(async (args, state) => {
-			this.log("args", args);
-			this.log("state", state);
-			// let raining = rain.isRaining(); // true or false
-			return true;
+			return state.value > args.value;
 		});
 	}
 }

@@ -22,6 +22,9 @@ Adds support for HCO
 
 ### Release Notes
 
+#### 1.2.1
+- Fixed the "Temperature is above value" card not working
+
 #### 1.2.0
 - Temperature polling is now every three seconds (up from never)
 - Added condition: Temperature is above value
