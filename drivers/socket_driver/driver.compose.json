@@ -36,7 +36,7 @@
 		}
 	},
 	"images": {
-		"large": "/drivers/my_driver/assets/images/large.png",
-		"small": "/drivers/my_driver/assets/images/small.png"
+		"large": "/drivers/socket_driver/assets/images/large.jpg",
+		"small": "/drivers/socket_driver/assets/images/small.jpg"
 	}
 }
