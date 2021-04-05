@@ -22,6 +22,9 @@ This is for the double outlet, also known as HCO, HCO 2, HCOHCD.
 
 ### Release Notes
 
+#### 1.2.4
+- Added a setting for polling interval
+
 #### 1.2.3
 - Temperature polling is now 10 sec
 - Added icon

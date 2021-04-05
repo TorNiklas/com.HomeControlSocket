@@ -7,6 +7,8 @@ const { CLUSTER } = require('zigbee-clusters');
 class SecondOutletDevice extends ZigBeeDevice {
 
 	onNodeInit() {
+		const settings = this.getSettings();
+
 		// Register capabilities
 		this.registerCapability('onoff', CLUSTER.ON_OFF, { endpoint: 2 });
 		this.registerCapability('measure_temperature', CLUSTER.TEMPERATURE_MEASUREMENT, { 
@@ -14,7 +16,18 @@ class SecondOutletDevice extends ZigBeeDevice {
 			getOpts: {
 				getOnStart: true,
 				getOnOnline: true,
-				pollInterval: 10000, // in ms
+				pollInterval: settings.pollInterval * 1000, // in ms
+			}
+		});
+	}
+
+	async onSettings({ oldSettings, newSettings, changedKeys }) {
+		this.registerCapability('measure_temperature', CLUSTER.TEMPERATURE_MEASUREMENT, { 
+			endpoint: 1,
+			getOpts: {
+				getOnStart: true,
+				getOnOnline: true,
+				pollInterval: newSettings.pollInterval * 1000, // in ms
 			}
 		});
 	}

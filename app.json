@@ -108,7 +108,21 @@
       "images": {
         "large": "/drivers/socket_driver/assets/images/large.jpg",
         "small": "/drivers/socket_driver/assets/images/small.jpg"
-      }
+      },
+      "settings": [
+        {
+          "id": "pollInterval",
+          "type": "number",
+          "label": {
+            "en": "Poll interval"
+          },
+          "value": 60,
+          "min": 1,
+          "units": {
+            "en": "seconds"
+          }
+        }
+      ]
     }
   ]
 }
