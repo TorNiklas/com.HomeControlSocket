@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "homey-meshdriver": "^2.0.2",
-    "homey-zigbeedriver": "^1.6.2",
+    "homey-zigbeedriver": "^1.6.3",
     "y18n": "^3.2.2",
     "yargs-parser": "^9.0.2",
     "zigbee-clusters": "^1.4.0"
