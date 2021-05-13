@@ -22,7 +22,7 @@
 		"devices": {
 			"secondOutlet": {
 				"class": "socket",
-				"capabilities": ["onoff", "measure_temperature"],
+				"capabilities": ["onoff"],
 				"name": {
 					"en": "Outlet #2"
 				},
